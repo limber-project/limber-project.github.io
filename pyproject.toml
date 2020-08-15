@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "limber.github.io"
+version = "0.1.0"
+description = ""
+authors = ["Jonathan Staniforth <jonathanstaniforth@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+mkdocs-material = "5.5.6"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"

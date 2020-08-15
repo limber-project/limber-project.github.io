@@ -1,0 +1,9 @@
+site_name: Limber
+theme:
+    name: material
+    palette:
+        primary: blue
+    icon:
+        repo: fontawesome/brands/github
+repo_url: https://github.com/limber-project/limber
+repo_name: limber-project/limber
