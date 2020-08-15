@@ -7,3 +7,16 @@ theme:
         repo: fontawesome/brands/github
 repo_url: https://github.com/limber-project/limber
 repo_name: limber-project/limber
+
+nav:
+    - Welcome: index.md
+    - Installation: installation.md
+    - Application: application.md
+    - Configuration: configuration.md
+    - Requests: requests.md
+    - Database: database.md
+
+markdown_extensions:
+    - toc:
+        permalink: True
+        toc_depth: 3

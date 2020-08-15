@@ -1,17 +1,21 @@
-# Welcome to MkDocs
+# Limber
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+_A python web application framework built using FastAPI._
 
-## Commands
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](CODEOFCONDUCT.md)
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+**Documentation**: [https://limber-project.github.io](https://limber-project.github.io)
 
-## Project layout
+**Source Code**: [https://github.com/limber-project/limber](https://github.com/limber-project/limber)
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+Limber is a python web application framework with the goal of simplifying the development of web applications.
+It is based on the FastAPI framework and provides services to handle common tasks that are required by web applications.
+
+The key features are:
+
+* **Fast setup**: quickly setup a new project with many of the services available and configured out of the box.
+* **Caching**: choose from a range of different caching options already implemented.
+* **Authentication**: easily authenticate a request using different mechanisms.
+* **Database**: get up and running fast with SQLAlchemy and Alembic setup out of the box.
+* **Rate limiting**: protect your API with the throttling middleware.

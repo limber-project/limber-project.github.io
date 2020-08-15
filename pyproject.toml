@@ -1,11 +1,12 @@
 [tool.poetry]
-name = "limber.github.io"
+name = "limber-project.github.io"
 version = "0.1.0"
 description = ""
 authors = ["Jonathan Staniforth <jonathanstaniforth@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
+mkdocs-material-extensions = "1.0"
 
 [tool.poetry.dev-dependencies]
 mkdocs-material = "5.5.6"
