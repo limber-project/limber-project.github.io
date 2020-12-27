@@ -1,6 +1,6 @@
 [tool.poetry]
-name = "limber-project.github.io"
-version = "0.1.0"
+name = "limber-project"
+version = "0.2.0"
 description = ""
 authors = ["Jonathan Staniforth <jonathanstaniforth@gmail.com>"]
 

@@ -51,7 +51,7 @@ def welcome(request: Request):
 ## Middleware
 Middleware can be used to handle a request before any processing is performed and handle a response before being sent to the client.
 Middleware can be found in **app/http/middleware**.
-These middleware can be register with **Application** in **main.py** as follows:
+These middleware can be registered with **Application** in **main.py** as follows:
 
 ```python
 from limberframework.database.middleware import DatabaseSessionMiddleware
